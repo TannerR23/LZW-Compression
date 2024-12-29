@@ -8,10 +8,10 @@ linux operating system
 a text or image file
 
 ### Check correctness
-can use md5sum
+can use md5sum **inputfile** **outputfile**
 
 ## How to use
-Command to run full program piping each output as input to the next:
+Command to run full program piping each output as input to the next: <br />
     cat **textfile/imagefile** | java ByteToHex | java LZWencode | java LZWpack | java LZWunpack | java LZWdecode | java HexToByte > **outputfilename**
 
 
